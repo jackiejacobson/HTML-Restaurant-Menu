@@ -11,6 +11,7 @@ h2 {
     color: darkred;
 }
 
+
 h3, 
 p,
 li {
@@ -33,12 +34,12 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
     text-align: center;
 }
 
 nav li {
-    display: inline;
+    display: inline-block;
 }
 
 nav a {
@@ -52,6 +53,12 @@ nav a:hover {
     color: darkred;
 }
 
+/*--------CLASSES & IDs----------*/
+.active-page{
+    padding: 10px;
+    background-color: darkgreen;
+    color: palegreen;
+}
 #banner {
     width: 100%;
     height: auto;
@@ -59,6 +66,19 @@ nav a:hover {
 }
 
 #banner img {
+    width: 50%;
+    height: auto;
+}
+#locations{
+    padding: 0;
+    list-style-type: none;
+}
+
+#restaurant{
+    width: 100%;
+    margin-top: 50px;
+}
+#restaurant img{
     width: 60%;
     height: auto;
 }
@@ -70,7 +90,7 @@ nav a:hover {
     border-radius: 5px;
     color: darkred;
     font-size: 2em;
-    padding: 20px;
+    padding: 3px 8px;
     margin: 10px;
 }
 
